@@ -111,4 +111,4 @@ Cohen, Lauren, Christopher Malloy, and Quoc Nguyen. *Lazy prices*. No. w25084. N
 - [知乎专栏：数据科学家](https://zhuanlan.zhihu.com/dadeng)
 
 
-![](img/大邓和他的Python.jpg)
+![](img/大邓和他的Python.png)
