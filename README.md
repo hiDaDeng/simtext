@@ -98,6 +98,8 @@ Cohen, Lauren, Christopher Malloy, and Quoc Nguyen. *Lazy prices*. No. w25084. N
 
 感兴趣的童鞋不妨 戳一下[《python网络爬虫与文本数据分析》](https://ke.qq.com/course/482241?tuin=163164df)进来看看~
 
+[![](img/课程.png)](https://ke.qq.com/course/482241?tuin=163164df)
+
 
 
 ## 更多
@@ -108,8 +110,5 @@ Cohen, Lauren, Christopher Malloy, and Quoc Nguyen. *Lazy prices*. No. w25084. N
 
 - [知乎专栏：数据科学家](https://zhuanlan.zhihu.com/dadeng)
 
-    ​    
 
-## 支持一下
-
-![](img/my_zanshang_qrcode.jpg)
+![](img/大邓和他的Python.jpg)
