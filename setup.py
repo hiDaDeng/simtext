@@ -3,7 +3,7 @@ import setuptools
 
 setup(
     name='simtext',     # 包名字
-    version='0.1',   # 包版本
+    version='1.1',   # 包版本
     description='文本、文档相似性计算',   # 简单描述
     author='大邓',  # 作者
     author_email='thunderhit@qq.com',  # 邮箱
