@@ -9,7 +9,7 @@ setup(
     author_email='thunderhit@qq.com',  # 邮箱
     url='https://github.com/thunderhit/simtext',      # 包的主页
     packages=setuptools.find_packages(),
-    install_requires=['scikit-learn<=0.22', 'jieba'],
+    install_requires=['scikit-learn', 'jieba'],
     python_requires='>=3.5',
     license="MIT",
     keywords=[
