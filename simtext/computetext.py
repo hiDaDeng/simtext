@@ -35,7 +35,7 @@ class similarity(object):
             pass
 
         corpus = [text1, text2]
-        cv = CountVectorizer()
+        cv = CountVectorizer(binary=True)
         cv.fit(corpus)
         vec1 = cv.transform([text1]).toarray()
         vec2 = cv.transform([text2]).toarray()
