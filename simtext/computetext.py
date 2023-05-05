@@ -29,13 +29,30 @@ class similarity(object):
         """
 
         if check_contain_chinese(text1):
-            text1 = ' '.join(jieba.lcut(text1))
-            text2 = ' '.join(jieba.lcut(text2))
-        else:
-            pass
+            text1_lst = []
+            for i in jieba.lcut(text1):
+                if len(i) >= 2:
+                    text1_lst.append(i)
+            if text1_lst:
+                text1 = ' '.join(text1_lst)
+            else:
+                ...
+        if check_contain_chinese(text2):
+            text2_lst = []
+            for i in jieba.lcut(text2):
+                if len(i) >= 2:
+                    text2_lst.append(i)
+            if text2_lst:
+                text2 = ' '.join(jieba.lcut(text2))
+            else:
+                ...
 
+        if (len(text1) < 2 and len(text2) == 0) or (len(text1) == 0 and len(text2) < 2):
+            analyzer = "char"
+        else:
+            analyzer = "word"
         corpus = [text1, text2]
-        cv = CountVectorizer(binary=True)
+        cv = CountVectorizer(binary=True, analyzer=analyzer)
         cv.fit(corpus)
         vec1 = cv.transform([text1]).toarray()
         vec2 = cv.transform([text2]).toarray()
